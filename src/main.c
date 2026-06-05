@@ -90,7 +90,6 @@ void mcp4921_shutdown(uint16_t last_N) {
 }   
 
 void app_main() {
-    // Configure UART
     const int uart_num = UART_NUM_0; 
     uart_config_t uart_config = {
         .baud_rate = 115200,
